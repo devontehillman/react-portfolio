@@ -1,3 +1,32 @@
+import React from 'react';
+import Nav from 'react-bootstrap/Nav';
+import Button from 'react-bootstrap/Button';
+
+function NavBar() {
+    return(
+        <div>
+        <Nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+        <a class="navbar-brand" href="index.html">Devonte Hillman</a>
+        <Nav.Link href="#home">Home</Nav.Link>
+        <Nav.Link href="#home">Contact Me</Nav.Link>
+        {/* <Button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </Button> */}
+        </Nav>
+        </div>
+    )
+};
+
+export default NavBar;
+
 {/* <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="index.html">Devonte Hillman</a>
       <!-- Social links + font awesome -->
