@@ -1,6 +1,5 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import NavBar from './NavBar'
 import { Card } from 'react-bootstrap';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
@@ -9,7 +8,6 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 function Contact (){
     return(
     <div>
-    <NavBar/>
     <Container>
         <Card style={{margin: "30px", padding: "20px", textAlign:"center"}}>
             <h1>Contact</h1>

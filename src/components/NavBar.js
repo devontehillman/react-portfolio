@@ -12,8 +12,8 @@ function NavBar() {
         <FontAwesomeIcon icon={['fab', 'github']} size="3x" />
         <FontAwesomeIcon icon={['fab', 'linkedin']} size="3x" />
 
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#home">Contact Me</Nav.Link>
+        <Nav.Link href="/home">Home</Nav.Link>
+        <Nav.Link href="/contact">Contact Me</Nav.Link>
         {/* <Button
         class="navbar-toggler"
         type="button"
