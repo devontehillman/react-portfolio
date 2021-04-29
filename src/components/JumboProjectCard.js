@@ -4,10 +4,10 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 //import Button from "react-bootstrap/Button";
 
-function ProjectCard(props) {
+function JumboProjectCard(props) {
     return (
-        <Col md={4}>
-            <Card>
+        <Col md={12}>
+            <Card style ={{ Margin : '10px' }}>
                 <Card.Img variant="top" src="holder.js/100px180" />
                 <Card.Body>
                 <Card.Title>Card Title</Card.Title>
@@ -21,4 +21,4 @@ function ProjectCard(props) {
     );
 }
 
-export default ProjectCard;
+export default JumboProjectCard;

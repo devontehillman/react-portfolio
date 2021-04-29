@@ -1,12 +1,17 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Button from 'react-bootstrap/Button';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+
 
 function NavBar() {
     return(
         <div>
         <Nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
         <a class="navbar-brand" href="index.html">Devonte Hillman</a>
+        <FontAwesomeIcon icon={['fab', 'github']} size="3x" />
+        <FontAwesomeIcon icon={['fab', 'linkedin']} size="3x" />
+
         <Nav.Link href="#home">Home</Nav.Link>
         <Nav.Link href="#home">Contact Me</Nav.Link>
         {/* <Button
