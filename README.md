@@ -4,6 +4,7 @@
 If you are opting out of career services, this is *still a required assignment*. Part of being a web developer means being a part of a community. Having a place to share your projects is *necessary* if you're applying for jobs, but is still *critical* on your journey as a developer.
 
 ![My web page](public/images/page1.png)
+![My web page](public/images/page1.png)
 ## Requirements
 
 * Updated portfolio featuring 6 total projects
