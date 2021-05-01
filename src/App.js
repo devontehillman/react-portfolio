@@ -1,21 +1,25 @@
 import React from 'react';
-// import Row from 'react-bootstrap/Row';
-import Container from 'react-bootstrap/Container';
-import NavBar from './components/NavBar'
-import JumboCard from './components/JumboCard'
-//import EmployeeCardDeck from './compontents/EmployeeCardDeck'
-//import API from "./utils/API"
+import "./components/FontAwesomeIcons";
+import {HashRouter as Router, Switch, Route} from "react-router-dom";
+
+import NavBar from "./components/NavBar"
+import Contact from "./pages/contact";
+import Home from './pages/home'
 
 function App (){
     return(
-    <div>
-        <NavBar/>
-        <Container>
-        <JumboCard>
-        </JumboCard>
-        </Container>
-        {/* <API/> */}
-    </div>
+    
+        <Router>
+        <div className= "App">
+            <NavBar />
+            <Switch>
+                <Route path="/" exact component={Home}/>
+                <Route path="/home" exact component={Home}/>
+                <Route path="/contact" exact component = {Contact}/>
+            </Switch>
+        </div>
+        </Router>
+    
     )
 }
 

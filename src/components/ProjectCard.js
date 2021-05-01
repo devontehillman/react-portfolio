@@ -4,24 +4,24 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 //import Button from "react-bootstrap/Button";
 
-function EmployeeCard(props) {
+function ProjectCard(props) {
+    console.log(props)
     return (
-            <Col md={4}>
-                <Card>
-                    <Card.Header>Title</Card.Header>
-                    <Card.Body>
-                        <Card.Title>Name</Card.Title>
-                        <Card.Text>Role:</Card.Text>
-                        <Card.Text>Age:</Card.Text>
-                        <Card.Text>ID:</Card.Text>
-                        <Card.Text>Email:</Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
-                </Card>
-            </Col>
+        <Col md={4}>
+            <Card>
+                <Card.Img variant="top" src={props.image} />
+                <Card.Body>
+                <a href={props.livePage}>
+                <Card.Title>{props.title}</Card.Title>
+                </a>
+                <Card.Text>
+                {props.description}
+                </Card.Text>
+                <a href={props.gitRepo}>Git Repo</a>
+                </Card.Body>
+            </Card>
+        </Col>
     );
 }
 
-export default EmployeeCard;
+export default ProjectCard;
