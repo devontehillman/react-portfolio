@@ -29,6 +29,12 @@ color: black;
 }
 .avatar{
     border: 3px solid black;
+    /* prevent image from going outside jumbotron */
+    overflow: hidden;
+    /* prevent image from stretching */
+    max-height: 267px;
+    max-width: 200px;
+    min-width: 200px;
 }
 .fab{
     font-size: 2.5rem;
@@ -42,6 +48,10 @@ color: black;
     margin-top:30px;
     box-shadow: 0 8px 16px -6px black;
     background-color: whitesmoke;
+}
+.col-md-4 {
+    display: flex;
+    max-width: 33.333333%;
 }
 .card {
 margin: 10px;
@@ -63,18 +73,28 @@ footer{
 margin-top: auto;
 }
 
-@media only screen and (max-width: 750px) 
-{
-.card{
-margin-bottom:30px;
-} 
-
-}
-.fab-contact{
+.icon{
     font-size: 2.5rem;
-    color: black;
+    color: white;
     margin: 10px;
 }
-.fab-contact:hover{
-    color: grey;
+.icon:hover{
+    color: black;
+}
+
+@media only screen and (max-width: 770px) 
+{
+.col-md-4{
+    max-width: 75% !important;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+margin-bottom:30px;
+
+} 
+
 }

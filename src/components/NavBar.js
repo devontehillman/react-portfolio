@@ -8,10 +8,13 @@ function NavBar() {
     return(
         <div>
         <Nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
-        <a class="navbar-brand" href="index.html">Devonte Hillman</a>
-        <FontAwesomeIcon icon={['fab', 'github']} size="3x" />
-        <FontAwesomeIcon icon={['fab', 'linkedin']} size="3x" />
-
+        <a class="navbar-brand" href="/">Devonte Hillman</a>
+        <a href="https://github.com/devontehillman?tab=repositories">
+        <FontAwesomeIcon className="icon" icon={['fab', 'github']} size="3x" />
+        </a>
+        <a href="https://www.linkedin.com/in/devonte-hillman-3a1558158/">
+        <FontAwesomeIcon className="icon" icon={['fab', 'linkedin']} size="3x" />
+        </a>
         <Nav.Link href="/home">Home</Nav.Link>
         <Nav.Link href="/contact">Contact Me</Nav.Link>
         {/* <Button

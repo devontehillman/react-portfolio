@@ -5,16 +5,19 @@ import Card from "react-bootstrap/Card";
 //import Button from "react-bootstrap/Button";
 
 function ProjectCard(props) {
+    console.log(props)
     return (
         <Col md={4}>
             <Card>
-                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Img variant="top" src={props.image} />
                 <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <a href={props.livePage}>
+                <Card.Title>{props.title}</Card.Title>
+                </a>
                 <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+                {props.description}
                 </Card.Text>
+                <a href={props.gitRepo}>Git Repo</a>
                 </Card.Body>
             </Card>
         </Col>
