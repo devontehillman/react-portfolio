@@ -22,7 +22,7 @@ class JumboCard extends React.Component {
                 {/* <!--add avatar photo 200 x 267--> */}
                 <img
                   class=".img-responsive avatar"
-                  src="/images/avatar.png"
+                  src="./images/avatar.png"
                   alt=""
                 />
               </Col>

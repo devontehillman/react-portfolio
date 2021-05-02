@@ -15,8 +15,8 @@ function NavBar() {
         <a href="https://www.linkedin.com/in/devonte-hillman-3a1558158/">
         <FontAwesomeIcon className="icon" icon={['fab', 'linkedin']} size="3x" />
         </a>
-        <Nav.Link href="/home">Home</Nav.Link>
-        <Nav.Link href="/contact">Contact Me</Nav.Link>
+        <Nav.Link href="/react-portfolio/#/home">Home</Nav.Link>
+        <Nav.Link href="/react-portfolio/#/contact">Contact Me</Nav.Link>
         {/* <Button
         class="navbar-toggler"
         type="button"
