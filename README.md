@@ -4,6 +4,5 @@ This is project is react copy of my [original portfolio](https://github.com/devo
 ## Finished-Page
 ![My Portfolio](./public/images/webpage.png)
 
-
 ## License
 This project is licensed under the terms of the MIT license.

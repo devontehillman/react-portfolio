@@ -16,7 +16,7 @@ function Contact (){
             <h2>{<FontAwesomeIcon color="Black" icon="user"/>}Devonte Hillman</h2>
             <h2>{<FontAwesomeIcon color="Black" icon="envelope"/>} hillmand@mail.gvsu.edu</h2>
             <h2>{<FontAwesomeIcon icon={['fa', 'phone-alt']} />}(269)924-9290</h2>
-            <h2>Resume:<a class="navbar-brand" href="assets/Tech Resume.pdf">Click Here</a></h2>
+            <h2>Resume:<a class="navbar-brand" href="./assets/Tech Resume.pdf">Click Here</a></h2>
             
             <Row style={{justifyContent:"center"}} >
             <a href="https://github.com/devontehillman?tab=repositories"> 
